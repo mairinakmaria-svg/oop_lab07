@@ -1,0 +1,18 @@
+Task 7.3.1
+Trying to create Rational(5, 0)
+Caught exception: Invalid rational number 5/0: denominator is zero
+
+Task 7.3.2
+Correct rational number: 1/2
+Trying to add incorrect value: Rational(1, 2) + 'abc'
+Caught exception: Invalid value for addition: abc
+Trying to divide by zero rational number: Rational(1, 2) / Rational(0, 3)
+Caught exception: Invalid value for division: 0
+
+Task 7.3.3
+RationalError in file test_data/rationals.txt: Invalid rational number 5/0: denominator is zero
+RationalValueError in file test_data/rationals.txt: invalid text value abc
+Values from file: [1/2, 3/4, 2/3, -2/3, 7]
+Sum: 33/4
+Trying to add incorrect data to RationalList
+Caught exception: Invalid value for adding to RationalList: not rational
